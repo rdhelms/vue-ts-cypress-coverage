@@ -8,6 +8,25 @@
   </div>
 </template>
 
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component
+export default class App extends Vue {
+  dummy = ''
+
+  mounted (): void {
+    const thing = 'testing Vue code coverage'
+    if (thing) {
+      this.dummy = thing
+    } else {
+      this.dummy = ''
+    }
+  }
+}
+
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

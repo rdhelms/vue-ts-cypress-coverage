@@ -1,4 +1,4 @@
-# demo
+# vue-ts-cypress-coverage
 
 ## Project setup
 ```
